@@ -1,0 +1,40 @@
+---
+learn: навчання
+about: про школу
+reviews: відгуки
+hire: набір
+contacts: контакти
+---
+
+<header class="header" id="header">
+  <a href="#" class="logo"></a>
+  <nav class="navigation v-center">
+    <a href="#learn" class="header-link">{{ page.learn }}</a>
+    <a href="#about" class="header-link">{{ page.about }}</a>
+    <a href="#reviews" class="header-link" style="display: none">{{ page.reviews }}</a>
+    <a href="#hire" class="header-link">{{ page.hire }}</a>
+    <a href="#contacts" class="header-link">{{ page.contacts }}</a>
+
+    <a href="/registration.html" class="button-red">записатися</a>
+   </nav>
+</header>
+
+<header class="header-mobile" id="header-mobile">
+  <a href="#" class="logo"></a>
+  <i class="burger-menu" id="burger-menu"></i>
+</header>
+
+<header class="header-mobile-menu" id="header-mobile-menu">
+  <a href="#" class="logo"></a>
+  <nav class="navigation v-center">
+    <a href="#learn" class="header-link">{{ page.learn }}</a>
+    <a href="#about" class="header-link">{{ page.about }}</a>
+    <a href="#reviews" class="header-link" style="display: none">{{ page.reviews }}</a>
+    <a href="#hire" class="header-link">{{ page.hire }}</a>
+    <a href="#contacts" class="header-link">{{ page.contacts }}</a>
+
+    <a href="/registration.html" class="button-red">записатися</a>
+  </nav>
+
+  <a class="burger-menu close" id="burger-menu-close"></a>
+</header>
